@@ -1,7 +1,7 @@
 # ILNP software version: ilnp-glibc-1
 ### 06 September 2019
 
-(This is a modified glibc library to accompany [ilnp-public-1 https://github.com/ilnp/ilnp-public-1](https://github.com/ilnp/ilnp-public-1))
+*(This is a modified glibc library to accompany [ilnp-public-1 https://github.com/ilnp/ilnp-public-1](https://github.com/ilnp/ilnp-public-1).)*
 
 ## The first [ILNP](https://ilnp.cs.st-andrews.ac.uk/) software release
 
