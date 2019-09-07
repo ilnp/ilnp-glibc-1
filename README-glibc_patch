@@ -1,0 +1,20 @@
+ILNP glibc-2.24 patch for reding /etc/hosts entries for ILNP in ilnp-public-1
+06 September 2019
+
+Copyright (C) 2019 Ryo Yanagida and Saleem N. Bhatti.
+
+The file:
+
+  ilnp-glibc-1-patch_for_glibc2.24.patch
+
+is a patch for the glibc-2.24 source to allow you to uild the version of glibc
+that is used with ilnp-public-1. The patch allows /etc/hosts entries for ILNP
+to be read and resturned in calls to getaddrinfo(3) such that IPv6 applications
+can operate over ILNP.
+
+Only a insgle file is changed:
+
+  ./nss/nss_files/files-hosts.c
+
+/EOF
+

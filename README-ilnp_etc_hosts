@@ -1,0 +1,27 @@
+ILNP guideline /etc/host configuration instructions for ilnp-public-1
+06 September 2019
+
+Copyright (C) 2019 Ryo Yanagida and Saleem N. Bhatti.
+
+1.0 Configure I-LV values in /etc/hosts
+    These are used for initial session establishment. Example /etc/hosts
+    entries are given below.
+
+    # Start of example /etc/hosts entries.
+    # The format of an IL-V in /etc/hosts is:
+    #   LLLL-LLLL-LLLL-LLLL.NNNN+NNNN+NNNN+NNNN   hostname
+    # where:
+    #   LLLL are hex digits for 16-bits of a L64 value
+    #   NNNN are hex digits for 16-bits of a NID value
+    #
+    # 2001:2:::/48 is for benchmarking (assigned to the IETF BMWG)
+
+    2001-2-0-aa.0+0+0+a1      ilnp-host-a1
+    2001-2-0-aa.0+0+0+a2      ilnp-host-a2
+    2001-2-0-bb.0+0+0+b1      ilnp-host-b1
+    2001-2-0-bb.0+0+0+b2      ilnp-host-b1
+
+    # End of example /etc/hosts entries.
+
+/EOF
+
